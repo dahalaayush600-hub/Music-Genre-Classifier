@@ -12,7 +12,7 @@ This project implements a **K-Nearest Neighbors (KNN)** classifier to predict th
 | Metric | Result | Insight |
 | :--- | :--- | :--- |
 | **Final Accuracy** | **[0.8967]** | The model correctly classifies nearly 9 out of 10 unseen song segments. |
-| **Optimal $K$** | **[Insert Your Optimal K Value, e.g., 7]** | This value minimized errors during hyperparameter optimization. |
+| **Optimal $K$** | **1** | This value minimized errors during hyperparameter optimization. |
 | **Best Performers** | Metal, Hiphop, Classical ($\mathbf{F1 \ge 0.92}$) | Highly distinct genres are classified with near-perfect reliability. |
 | **Main Challenge** | Country ($\mathbf{F1=0.81}$) | The model struggles most with Country, frequently confusing it with adjacent genres like Rock or Pop. |
 
