@@ -11,7 +11,7 @@ This project implements a **K-Nearest Neighbors (KNN)** classifier to predict th
 
 | Metric | Result | Insight |
 | :--- | :--- | :--- |
-| **Final Accuracy** | **[0.8967]** | The model correctly classifies nearly 9 out of 10 unseen song segments. |
+| **Final Accuracy** | **89.67%** | The model correctly classifies nearly 9 out of 10 unseen song segments. |
 | **Optimal $K$** | **1** | This value minimized errors during hyperparameter optimization. |
 | **Best Performers** | Metal, Hiphop, Classical ($\mathbf{F1 \ge 0.92}$) | Highly distinct genres are classified with near-perfect reliability. |
 | **Main Challenge** | Country ($\mathbf{F1=0.81}$) | The model struggles most with Country, frequently confusing it with adjacent genres like Rock or Pop. |
@@ -25,7 +25,7 @@ The model was trained on the **GTZAN Genre Collection**, using the **`features_3
 
 # Technology Stack
 
-* **Language:** Python [Insert Version]
+* **Language:** Python 3.12.7
 * **ML Libraries:** Scikit-learn (KNN, StandardScaler, Metrics)
 * **Data Analysis:** Pandas, NumPy
 * **Visualization:** Matplotlib, Seaborn
